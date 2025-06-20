@@ -130,12 +130,36 @@ body {
     margin: 0 auto;
 }
 .card p{
-    color:#6B7280		;
+    color:#6B7280;
 }
 
-.section-three {
-    height: 200px;
+.quote-section {
+    padding:120px 0;
     background-color: #e5e7eb;
+    color: #1f2937;
+}
+.quote-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.quote{
+    font-size:36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 800px; 
+}
+.quote-author{
+    max-width: 800px;
+    width:100%;
+    text-align: right;
+    font-weight:bold;
+    font-size:24px;
+    max-width: 800px;
+}
+.quote p,
+.quote-author p {
+  margin: 0;
 }
 
 .section-four {
