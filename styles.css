@@ -182,6 +182,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 50px 120px;
+    flex-wrap: wrap;
 }
 
 .cta-alert p {
@@ -206,6 +207,8 @@ body {
 }
 
 .footer {
-    height: 50px;
+    padding:20px 0;
+    text-align: center;
+    color:#E5E7EB;
     background-color: #1f2937;
 }
